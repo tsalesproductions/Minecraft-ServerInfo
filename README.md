@@ -91,9 +91,6 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
 <hr>
 
 ### Exemplo
-<small><small>
-<code><?php</code><br>
 	<code>$srv = new statusServer('127.0.0.1',false);</code><br>
 	<code>$srv = new statusServer('127.0.0.1',false);</code><br>
-<code>?></code>
 
