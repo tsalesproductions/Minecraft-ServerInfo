@@ -56,7 +56,7 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
   </tr>
   <tr>
     <td>getPlayersOnline()</td>
-    <td>Mostra em lista o nome de todos jogadores que estão online no servidor. <br>Ex: João<br>Maria<br>CarlosZ<br>Pedro<br> ...</td> 
+    <td>Mostra em lista o nome de todos jogadores que estão online no servidor. <br>Ex: <br>João<br>Maria<br>CarlosZ<br>Pedro<br> ...</td> 
   </tr>
 <tr>
     <td>getTotalPlayersOnline()</td>
@@ -78,11 +78,11 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
     <td>getStatusServer()</td>
     <td>Retorna verdadeiro ou falso; você pode fazer um simples método para printar um texto:<br>
   	<code>
-		if(getStatusServer() == true):
-		echo = "Online";
-		else:
-		echo "Offline";
-		endif;
+		if(getStatusServer() == true):<br>
+		echo = "Online";<br>
+		else:<br>
+		echo "Offline";<br>
+		endif;<br>
     	</code>
   </td> 
   </tr>
