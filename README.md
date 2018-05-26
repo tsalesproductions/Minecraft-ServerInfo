@@ -2,10 +2,19 @@
 Com esse script você poderá pegar as informações do seu servidor de forma fácil e responsiva e coloca em qualquer lugar através das funções.
 
 <hr>
-<h2> Requesitos: </h2>
-Primeiro você precisa chamar a classe no seu index.php
+<h2> Chamando a classe: </h2>
+Primeiro você precisa chamar a classe no seu index.php<br>
 <code>
 	include_once("lib/serverstatus.php");
+</code>
+<hr>
+
+<h2> Instanciando a classe: </h2>
+Agora você precisa instanciar a classe utlizando uma variável qualquer como nome.<br>
+
+### Instanciando com uma porta
+<code>
+	$srv = new statusServer('127.0.0.1','25655');
 </code>
 
 
