@@ -1,11 +1,11 @@
 # Minecraft-ServerInfo
 Com esse script você poderá pegar as informações do seu servidor de forma fácil e responsiva e coloca em qualquer lugar através das funções.
+
 <hr>
-AQAA
-<h2>Começando:</h2>
+<h2> Requesitos: </h2>
 Primeiro você precisa chamar a classe no seu index.php
 <code>
-	<?php include_once("lib/serverstatus.php");?>
+	include_once("lib/serverstatus.php");
 </code>
 
 
