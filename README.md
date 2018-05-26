@@ -31,7 +31,7 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
 <h2> Instanciando Funções: </h2>
 ### Exemplo
 	<?php
-		echo $srv->getHostnameServer(); //Mostrará: ServerNameHere
+	echo $srv->getHostnameServer(); //Mostrará: ServerNameHere
 	?>
 
 <hr>
