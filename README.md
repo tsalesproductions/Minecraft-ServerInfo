@@ -87,3 +87,10 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
   </td> 
   </tr>
 </table>
+
+<hr>
+
+### Exemplo
+<code>$srv = new statusServer('127.0.0.1',false);</code>
+<code>$srv = new statusServer('127.0.0.1',false);</code>
+
