@@ -56,7 +56,7 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
   </tr>
   <tr>
     <td>getPlayersOnline()</td>
-    <td>Mostra em lista o nome de todos jogadores que estão online no servidor. Ex: João, Maria, CarlosZ ...</td> 
+    <td>Mostra em lista o nome de todos jogadores que estão online no servidor. <br>Ex: João<br>Maria<br>CarlosZ<br>Pedro<br> ...</td> 
   </tr>
 <tr>
     <td>getTotalPlayersOnline()</td>
@@ -68,15 +68,22 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
   </tr>
   <tr>
     <td>getTotalPlayersOnlineComplete()</td>
-    <td>Mostra o total de jogadores + quantidade de slots. Ex: 16/80</td> 
+    <td>Mostra o total de jogadores e quantidade de slots. Ex: 16/80</td> 
   </tr>
 <tr>
     <td>getPorcentUsersOnline()</td>
     <td>Mostra a porcentagem de jogadores online. <br>Ex: players=10; <br>maxPlayers=80; <br>Calculando em regra de 3: <br>10 * 100 / 80 = 12,5%;<br> Retornando em inteiro = 12%; </td> 
   </tr>
   <tr>
-    <td></td>
-    <td></td> 
+    <td>getStatusServer()</td>
+    <td>Retorna verdadeiro ou falso; você pode fazer um simples método para printar um texto:<br>
+  	<code>
+		if(getStatusServer() == true):
+		echo = "Online";
+		else:
+		echo "Offline";
+		endif;
+    	</code>
+  </td> 
   </tr>
-
 </table>
