@@ -29,10 +29,9 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
 <hr>
 
 <h2> Instanciando Funções: </h2>
-###
-	<?php
-	echo $srv->getHostnameServer(); //Mostrará: ServerNameHere
-	?>
+	<code>
+		echo $srv->getHostnameServer(); //Mostrará: ServerNameHere
+	</code>
 
 <hr>
 <table style="width:100%">
@@ -100,7 +99,7 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
 	<?php 
 	$srv = new statusServer('127.0.0.1', '25655'); //Instancia a classe
 	?>
-	<p>Hostname: <?php echo $srv->$getIpServer;?> //Retornará: MeuServidorNome</p>
+	<p>Hostname: <?php echo $srv->$getHostnameServer;?> //Retornará: MeuServidorNome</p>
 	<p>Ip: <?php echo $srv->$getIpServer;?> //Retornará: 127.0.0.1</p>
 	<p>Port: <?php echo $srv->$getPortServer;?> //Retornará: 25655</p>
 	<p>Total Online: <?php echo $srv->$getTotalPlayersOnlineComplete;?> //Retornará: 25/80</p>
