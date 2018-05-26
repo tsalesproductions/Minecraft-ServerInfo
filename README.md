@@ -16,17 +16,23 @@ Primeiro você precisa chamar a classe no seu index.php<br>
 <h2> Instanciando a classe: </h2>
 Agora você precisa instanciar a classe utlizando uma variável qualquer como nome.<br>
 
-### Instanciando com uma porta
+### Instanciando classe com uma porta
 <code>
 	$srv = new statusServer('127.0.0.1','25655');
 </code>
 
-### Instanciando sem porta
+### Instanciando classe sem porta
 <code>
 	$srv = new statusServer('127.0.0.1',false);
 </code>
 
+<hr>
 
+<h2> Instanciando Funções: </h2>
+### Exemplo
+	<?php
+		echo $srv->getHostnameServer(); //Mostrará: ServerNameHere
+	?>
 
 <hr>
 <table style="width:100%">
@@ -92,7 +98,22 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
 
 ### Exemplo
 	<?php 
-	$srv = new statusServer('127.0.0.1',false);
-	BaAAA
+	$srv = new statusServer('127.0.0.1', '25655'); //Instancia a classe
 	?>
+	<p>Hostname: <?php echo $srv->$getIpServer;?> //Retornará: MeuServidorNome</p>
+	<p>Ip: <?php echo $srv->$getIpServer;?> //Retornará: 127.0.0.1</p>
+	<p>Port: <?php echo $srv->$getPortServer;?> //Retornará: 25655</p>
+	<p>Total Online: <?php echo $srv->$getTotalPlayersOnlineComplete;?> //Retornará: 25/80</p>
+	<p>Porcentagem: <?php echo $srv->$getPorcentUsersOnline;?> //Retornará: 31%</p>
+	<p>Lista de Onlines: <?php $srv->echo $getPlayersOnline;?> 
+	//Retornará: 
+	João
+	Maria
+	José
+	Felipe
+	Calos
+	Bruno
+	Henrique
+	...
+	</p>
 
