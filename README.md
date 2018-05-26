@@ -2,6 +2,9 @@
 Com esse script você poderá pegar as informações do seu servidor de forma fácil e responsiva e coloca em qualquer lugar através das funções.
 
 <hr>
+<h2> Requesitos: </h2>
+Sua query precisa estar ativada para receber os dados através do json de nosso script
+<hr>
 <h2> Chamando a classe: </h2>
 Primeiro você precisa chamar a classe no seu index.php<br>
 <code>
@@ -15,6 +18,11 @@ Agora você precisa instanciar a classe utlizando uma variável qualquer como no
 ### Instanciando com uma porta
 <code>
 	$srv = new statusServer('127.0.0.1','25655');
+</code>
+
+### Instanciando sem porta
+<code>
+	$srv = new statusServer('127.0.0.1',false);
 </code>
 
 
